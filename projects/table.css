@@ -2,7 +2,6 @@
 section { width: 80%;}
 /* Table*/
 table {width: 100%;}
-th,tr {height:30px;}
 th {
     background-color: rgb(248, 183, 183);
 }
@@ -22,33 +21,48 @@ tr:nth-child(odd) {
         /* CSS rules for mobile devices */
         /* html*/
         html { font-size:x-small;}
-        th,tr {height:20px;}
+        th,tr {
+            height:20px;
+            font-size:x-small;
+        }
+        .class-heading {font-size: large;}
       }
     /* CSS rules for tablets */
     @media only screen and (max-width: 768px) {
        
         /* html*/
-        html { font-size:large;}
-        th, tr {height:30px;}
+        html { font-size:medium;}
+        th, tr {
+            height:30px;
+            font-size:medium;
+        }
+        .class-heading {font-size: xx-large;}
       }
+      
       /* CSS rules for laptop */
     @media only screen and (max-width: 1024px) {
        
         /* html*/
-        html { font-size:x-large;}
-        th,tr {height:30px;}
+        html { font-size:large;}
+        th,tr {
+            height:30px;
+            font-size: large;
+        }
       }
       /* CSS rules for desktop */
       @media only screen and (max-width: 1200px) {
        
         /* html*/
-        html { font-size:xx-large;}
-        th, tr {height:30px;}
+        html { font-size: larger;}
+        th, tr {
+            height:30px;
+            font-size: larger;
+        }
       }
       /* CSS rules for others and more */
       @media only screen and (min-width: 1201px) {
        
         /* html*/
-        html { font-size:xx-large;}
+        html { font-size:x-large;}
         th, tr {height:40px;}
       }
