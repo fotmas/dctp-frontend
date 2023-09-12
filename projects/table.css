@@ -20,10 +20,10 @@ tr:nth-child(even) {
 @media only screen and (max-width: 480px) {
         /* CSS rules for mobile devices */
         /* body*/
-        body { font-size:xx-small;}
+        body { font-size:small;}
         th,td {
             height:20px;
-            font-size:xx-small;
+            font-size: small;
         }
         .class-heading {
           font-size: medium;
