@@ -1,4 +1,4 @@
-/* html*/
+/* body*/
 section { width: 80%;}
 /* Table*/
 table {width: 100%;}
@@ -11,58 +11,76 @@ tr:nth-child(odd) {
     background-color: rgb(218, 220, 253);
     }
     
-    tr:nth-child(even) {
+tr:nth-child(even) {
     background-color: rgb(140, 140, 206);
     color: rgb(254, 254, 255);
     }
  /* CSS rules for media queries */
   /* CSS rules for mobile devices */
-    @media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) {
         /* CSS rules for mobile devices */
-        /* html*/
-        html { font-size:x-small;}
-        th,tr {
+        /* body*/
+        body { font-size:xx-small;}
+        th,td {
             height:20px;
-            font-size:x-small;
+            font-size:xx-small;
         }
-        .class-heading {font-size: large;}
-      }
+        .class-heading {
+          font-size: medium;
+          font-weight: bold;
+        }
+}
     /* CSS rules for tablets */
-    @media only screen and (max-width: 768px) {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
        
-        /* html*/
-        html { font-size:medium;}
-        th, tr {
+        /* body*/
+        body { font-size:medium;}
+        th, td {
             height:30px;
             font-size:medium;
         }
-        .class-heading {font-size: xx-large;}
-      }
+        .class-heading {
+          font-size: large;
+          font-weight: bold;
+        }
+}
       
       /* CSS rules for laptop */
-    @media only screen and (max-width: 1024px) {
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
        
-        /* html*/
-        html { font-size:large;}
-        th,tr {
+        /* body*/
+        body { font-size:large;}
+        th,td {
             height:30px;
             font-size: large;
         }
-      }
+        .class-heading {
+          font-size: x-large;
+          font-weight: bold;
+        }
+}
       /* CSS rules for desktop */
-      @media only screen and (max-width: 1200px) {
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
        
-        /* html*/
-        html { font-size: larger;}
-        th, tr {
+        /* body*/
+        body { font-size: larger;}
+        th, td {
             height:30px;
             font-size: larger;
         }
-      }
+        .class-heading {
+          font-size: x-large;
+          font-weight: bold;
+        }
+}
       /* CSS rules for others and more */
       @media only screen and (min-width: 1201px) {
        
-        /* html*/
-        html { font-size:x-large;}
-        th, tr {height:40px;}
+        /* body*/
+        body { font-size:x-large;}
+        th, td {height:40px;}
+        .class-heading {
+          font-size: xx-large;
+          font-weight: bold;
+        }
       }
