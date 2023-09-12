@@ -21,6 +21,10 @@ tr:nth-child(even) {
         /* CSS rules for mobile devices */
         /* body*/
         body { font-size:small;}
+
+        /* Section */
+        section { width: 90%;}
+         /* Table stuffs */
         th,td {
             height:20px;
             font-size: small;
