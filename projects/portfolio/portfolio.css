@@ -20,10 +20,16 @@ section {
     padding: 10px;
 }
 .article-inner {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 
 }
+.about-title {
+    font-weight: bold;
+}
 .about-p {
-    margin: 0 10%;
     width: 80%;
     background-color: rgb(119, 126, 148, 0.1);
     border-radius: 10px;
