@@ -34,11 +34,13 @@ section {
 .header-format {
     display: flex;
     justify-content: center;
-    background-color: #02074b;
-    color: #a0a6fd;
-    width: 25%;
+    background-color: #6f729e;
+    color: #020752;
+    width: 20%;
     padding: 0px 10px;
+    border-radius: 15px;
 }
+
 .about-p {
     width: 80%;
     background-color: rgb(119, 126, 148, 0.1);
