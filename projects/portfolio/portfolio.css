@@ -1,0 +1,43 @@
+/* General */
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.container {
+    width:100%;
+    background-color: #a5acc2;
+}
+/* Header  */
+header {
+    height: 80px;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 0.5px solid white;
+    background-color: #02074b;
+    color: #a0a6fd;
+}
+section {
+    padding: 10px;
+}
+.article-inner {
+
+}
+.about-p {
+    margin: 0 10%;
+    width: 80%;
+    background-color: rgb(119, 126, 148, 0.1);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
+}
+/* footer */
+footer {
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    background-color: #020531;
+    color: #a0a6fd;
+}
+footer span {
+    color: white;
+}
