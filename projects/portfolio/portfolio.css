@@ -6,6 +6,8 @@
 .container {
     width:100%;
     background-color: #a5acc2;
+    display: flex;
+    flex-direction: column;
 }
 /* Header  */
 header {
@@ -26,8 +28,16 @@ section {
     align-items: center;
 
 }
-.about-title {
+.about-title, .footer-name {
     font-weight: bold;
+}
+.header-format {
+    display: flex;
+    justify-content: center;
+    background-color: #02074b;
+    color: #a0a6fd;
+    width: 25%;
+    padding: 0px 10px;
 }
 .about-p {
     width: 80%;
@@ -45,5 +55,5 @@ footer {
     color: #a0a6fd;
 }
 footer span {
-    color: white;
+    color: rgb(193, 172, 250, 0.7);
 }
